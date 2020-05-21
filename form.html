@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Form</title>
+</head>
+<body>
+  <header>
+     <h1>Contact Form</h1>
+     <nav>
+         <a href="index.html">Go back</a>
+     </nav>
+  </header>
+  <br>
+  <main>
+    <form action="https://formspree.io/moqkjbad" method="POST">
+      <label>Name
+         <br>
+         <input type="text" name="name" placeholder="Name" required>  
+      </label>
+      <br>
+      <label>Country
+         <br>
+         <input type="text" placeholder="Country">
+      </label>
+      <br>
+      <label>Email
+         <br>
+         <input type="text" name="email" placeholder="Email" required>
+      </label>
+      <br>
+      <label>Gender
+         <br>
+         <input type="radio" name="gender" value="male">Male
+      </label>
+      <label>
+         <input type="radio" name="gender" value="female">Female
+      </label>
+      <label>
+         <input type="radio" name="gender" value="prefer not to disclose"> Prefer not to disclose
+      </label>
+      <br>
+      <br>
+      <input type="submit">
+      <input type="reset">
+    </form>
+  </main>
+    
+</body>
+</html>

@@ -7,46 +7,45 @@
     <title>Contact Form</title>
 </head>
 <body>
-  <header>
-     <h1>Contact Form</h1>
-     <nav>
+   <header>
+         <h1>Contact Form</h1>
+         <nav>
          <a href="index.html">Go back</a>
-     </nav>
+         </nav>
   </header>
   <br>
   <main>
     <form action="https://formspree.io/moqkjbad" method="POST">
-      <label>Name
+         <label>Name
+              <br>
+             <input type="text" name="name" placeholder="Name" required>  
+         </label>
          <br>
-         <input type="text" name="name" placeholder="Name" required>  
-      </label>
-      <br>
-      <label>Country
+         <label>Country
+             <br>
+             <input type="text" placeholder="Country">
+         </label>
          <br>
-         <input type="text" placeholder="Country">
-      </label>
-      <br>
-      <label>Email
+         <label>Email
+             <br>
+             <input type="text" name="email" placeholder="Email" required>
+         </label>
          <br>
-         <input type="text" name="email" placeholder="Email" required>
-      </label>
-      <br>
-      <label>Gender
+         <label>Gender
+             <br>
+             <input type="radio" name="gender" value="male">Male
+         </label>
+         <label>
+             <input type="radio" name="gender" value="female">Female
+         </label>
+         <label>
+             <input type="radio" name="gender" value="prefer not to disclose"> Prefer not to disclose
+         </label>
          <br>
-         <input type="radio" name="gender" value="male">Male
-      </label>
-      <label>
-         <input type="radio" name="gender" value="female">Female
-      </label>
-      <label>
-         <input type="radio" name="gender" value="prefer not to disclose"> Prefer not to disclose
-      </label>
-      <br>
-      <br>
-      <input type="submit">
-      <input type="reset">
+         <br>
+         <input type="submit">
+         <input type="reset">
     </form>
   </main>
-    
 </body>
 </html>
